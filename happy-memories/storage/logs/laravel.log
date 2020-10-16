@@ -1,0 +1,9 @@
+[2020-10-16 18:48:23] local.ERROR: Command "ui" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"ui\" is not defined. at F:\\laragon\\www\\happy-memories\\happy-memories\\vendor\\symfony\\console\\Application.php:651)
+[stacktrace]
+#0 F:\\laragon\\www\\happy-memories\\happy-memories\\vendor\\symfony\\console\\Application.php(230): Symfony\\Component\\Console\\Application->find('ui')
+#1 F:\\laragon\\www\\happy-memories\\happy-memories\\vendor\\symfony\\console\\Application.php(142): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 F:\\laragon\\www\\happy-memories\\happy-memories\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 F:\\laragon\\www\\happy-memories\\happy-memories\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 F:\\laragon\\www\\happy-memories\\happy-memories\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
