@@ -10903,3 +10903,15 @@ a.text-dark:focus {
   }
 }
 
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #4a6990;
+  background: radial-gradient(circle, #4aaff4 32%, #4a4ef4 100%);
+}
+
+.memory-list {
+  color: white;
+  font-size: 20px;
+}
+
